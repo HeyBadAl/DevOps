@@ -91,3 +91,6 @@ class TestApiGateway(TestCase):
                 # get the list / scores update
                 player_list_message = json.loads(await websocket.recv())
                 print(player_list_message)
+
+
+def isTrue(random):
